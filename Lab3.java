@@ -36,6 +36,13 @@ class Employee {
 		this.empName = empName;
 		this.salary = salary;
 	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Employee [empNo=" + empNo + ", empName=" + empName + ", salary=" + salary + "]";
+	}
 
 }
 
@@ -57,8 +64,12 @@ public class Lab3 {
 		System.out.println("---------DETAILS OF ALL EMPLOYEES-----------");
 		
 		for(int i = 0 ; i < 5 ; i++  ) {
+			//Without using toString Method
+			//System.out.println(arrayOfEmployees[i].getEmpNo() +" "+arrayOfEmployees[i].getEmpName()+" "+arrayOfEmployees[i].getSalary());
 			
-			System.out.println(arrayOfEmployees[i].getEmpNo() +" "+arrayOfEmployees[i].getEmpName()+" "+arrayOfEmployees[i].getSalary());
+			
+			//using toString Method
+			System.out.println(arrayOfEmployees[i]);
 			
 		}
 		
