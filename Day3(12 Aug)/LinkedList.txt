@@ -1,0 +1,56 @@
+1.ADD LAST (newNode)
+
+   **if head is null then print("Empty Linkedlist") 
+
+   Step 1 :  Create a Temporary Pointer temp
+   
+   Step 2 :  Make it point to the head
+   
+   Step 3 :  Increment temp till temp != null
+   
+   Step 5 :  Make Temp->Next = newNode
+   
+   Step 6 :  Make newNode->Next = null
+   
+   
+2. ADD FIRST (newNode)    
+   
+   **if head is null then print("Empty Linkedlist") 
+   
+   Step 1 : Make newNode->next = head;
+   
+   Step 2 : Make head = newNode;
+   
+   
+3. Add After (node , newNode)
+
+   **if head is null then print("Empty Linkedlist") 
+   
+   Step 1 : create a temporary pointer temp and point it to head
+   
+   Step 2 : increment temp till we get temp->data == node->data
+   
+   Step 3 :  Make newNode -> next = temp-> next;
+   
+   Step 4 : Make  temp->next = newNode;
+   
+   
+4. Delete (node)
+
+    **if head is null then print("Empty Linkedlist") 
+    
+    Step 1 : Create 2 pointers temp and prev
+    
+    Step 2 : Initialize temp = head and prev = null
+    
+    Step 3 : if head is to be deleted then change head = head.next and return;
+    
+    Step 4 : Increment temp till temp->data != key , keeping the track of previous
+    
+    Step 5 : if temp becomes null then print("Node not Present!!") return as the given node is not in the linkedlist
+    
+    Step 6 : if node is found at temp then  prev->next = temp->next;
+   
+   
+   
+   
