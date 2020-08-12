@@ -1,0 +1,13 @@
+                        Access                       Allocation                    Getting/Putting Policy                           Use Case Scenarios
+                                     
+1. Arrays               Random                       Static                        Random                                           Implement Vectors Matrices and other DS
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. LinkedLists          Sequential                   Dynamic                       Linear Traversal                                 Emphasis of Dynamic Allocation , Implementing
+                                                                                                                                    Stack , Queue etc  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                    
+3.  Stacks              Sequential                   Dynamic                        At Top Only                                     LIFO order maintained , Tracing Recursion,
+                                                                                                                                    convert Infix to postfix. 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                     
+4. Queues               Sequential                   Dynamic                       At Front and Rear                                 Maintaining job scheduling in OS , Implementation
+                                                                                                                                     of Tree Data Structures.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                    
