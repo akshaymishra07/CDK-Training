@@ -1,0 +1,32 @@
+Step 1 : Initialize an array with some arbitrary size;
+
+Step 2 : Initialize 2 pointers front and rear with 0;
+
+
+**For enqueue / push operation
+  
+    void enqueue(int n){
+      
+      check if queue is full --> if(rear == size)
+      -> true -- print("Queue is full")
+      
+      -> false -- insert n at array[rear]
+                  increment rear by 1;
+     
+    }
+    
+ **For Dequeue / Pop Operation (Dequeue will always happen from front as it follows FIFO)
+ 
+    void poll(){
+       
+       check if queue is empty-------if(front == rear)
+         true -> print("Empty queue!!") and return;
+    
+        
+        shift every element from front+1 to rear 
+        to the left by 1
+        
+        
+        decrement rear by 1
+    
+    }
