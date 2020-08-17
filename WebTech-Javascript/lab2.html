@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JS LAB 2 </title>
+<script type="text/javascript">
+	 
+	 function test1(){
+		 
+		 var id = document.getElementById("empId").value;
+		 var name = document.getElementById("empName").value;
+		 var salary = document.getElementById("salary").value;
+		 console.log(id + " " + name + " "+ salary);
+		 document.getElementById("eid").innerHTML = id;
+		 document.getElementById("ename").innerHTML = name;
+		 document.getElementById("sal").innerHTML = salary;
+	 }
+	 
+</script>
+</head>
+<body>
+    <table>
+         
+         <tr>
+         <td>Employee ID   :</td>
+         <td><input type="text" id="empId"></td>
+         </tr>
+         
+         <tr>
+            <td>Employee Name  :</td>
+            <td><input type="text" id="empName"></td>
+         
+         </tr>
+         
+         <tr>
+            <td>Salary  : </td>
+            <td><input type="text" id="salary"></td>
+         
+         </tr>
+    
+    </table>
+    
+        
+        
+        
+	<input type="button" value="Click me" onclick="test1()"/><br/><br/>
+	
+	<table border="1px" align="center">
+	   
+	     <tr>
+	         <th> ID</th>
+	         <th> Name</th>
+	         <th> Salary</th>
+	         
+	     </tr>
+	     <tr>
+	         <td id="eid">EMPLOYEE ID</td>
+	         <td id="ename">EMPLOYEE Name</td>
+	         <td id="sal">EMPLOYEE Salary</td>
+	         
+	     </tr>
+	     
+	  
+	
+	
+	</table>
+   
+
+</body>
+</html>
