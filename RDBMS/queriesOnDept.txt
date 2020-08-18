@@ -17,3 +17,28 @@ select * from dept where dept='IT';
 
 dept is IT or FN 
  select * from dept where dept in ( 'IT' , 'FN');
+
+
+SQL> select dept from dept group by dept;
+
+DE
+--
+FI
+HR
+IT
+
+SQL> select dept, count(*) from dept group by dept;
+
+DE   COUNT(*)
+-- ----------
+FI          3
+HR          2
+IT         11
+
+SQL> select dept,min(salary), max(salary) from dept group by dept;
+
+DE MIN(SALARY) MAX(SALARY)
+-- ----------- -----------
+FI         110        5000
+HR         110         305
+IT           1        2220
