@@ -1,0 +1,19 @@
+Name Starts with R : 
+select * from dept where ename like 'R%';
+
+Name ends with li:
+ select * from dept where ename like '%li';
+
+Name has sh:
+select * from dept where ename like '%sh%';
+
+
+Queries on salary
+select * from dept where salary > 500;
+select * from dept where salary <= 110;
+
+Where dept is IT
+select * from dept where dept='IT';
+
+dept is IT or FN 
+ select * from dept where dept in ( 'IT' , 'FN');
