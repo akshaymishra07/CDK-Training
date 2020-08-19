@@ -1,0 +1,24 @@
+ create table person(name varchar(30) , city  varchar(30) , state varchar(30) , dob date , aadhar number(12) , pan varchar(15) );
+ 
+ insert into person values('Akshay'  , 'Pune'      , '' , TO_DATE('1997-07-10' , 'YYYY/MM/DD') , 889965656696 , 'ASRGH2367O' );
+ 
+ 
+ insert into person values('Lokesh'  , 'Pune'      , '' , TO_DATE('1997-12-30' , 'YYYY/MM/DD') , 567843126696 , 'LOPTY0934R' );
+ 
+ insert into person values('Nikita'  , 'Hyderabad' , '' , TO_DATE('1998-07-01' , 'YYYY/MM/DD') , 779876534888 , 'WCVJU5409L' );
+ 
+ insert into person values('Akash'   , 'Hyderabad' , '' , TO_DATE('1997-02-23' , 'YYYY/MM/DD') , 533971180067 , 'QPMZH2849X' );
+ 
+ insert into person values('Shivani' , 'Pune'      , '' , TO_DATE('1998-11-14' , 'YYYY/MM/DD') , 128937197391 , 'ALPZB5138V' );
+ 
+ insert into person values('Naresh'  , 'Mumbai'    , '' , TO_DATE('1997-02-23' , 'YYYY/MM/DD') , 533971180067 , 'QPMZH2849X' );
+ 
+ insert into person values('Krishna' , 'Pune'      , '' , TO_DATE('1998-07-25' , 'YYYY/MM/DD') , 258741963456 , 'QWERT9012M' );
+ 
+ insert into person values('Anusha'  , 'Hyderabad' , '' , TO_DATE('1998-05-04' , 'YYYY/MM/DD') , 357951486624 , 'CVBNM7014W' );
+ 
+ insert into person values('Srujan'  , 'Pune'      , '' , TO_DATE('1997-12-07' , 'YYYY'/MM/DD) , 624862489713 , 'MESYT7291H' );
+ 
+ insert into person values('Shyam'   , 'Mumbai'    , '' , TO_DATE('1998-09-19' , 'YYYY/MM/DD') , 183297468255 , 'BVYTK0087A' );
+ 
+ 
