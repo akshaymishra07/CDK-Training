@@ -9,6 +9,9 @@ public class TestStudent {
 		for(Student st : students) {
 			st.display();
 		}
+		System.out.println("---------------------------------------");
+		
+		obj.displayTotal(students);
 
 		System.out.println("---------------------------------------");
 		
