@@ -61,12 +61,23 @@ public class StudentManipulation {
 			int tot = total(student);
 			
 			if(tot > max) {
+				max = tot;
 				topper = student;
 			}
 		}
 		
 		
 		return topper;
+	}
+	
+	
+	void displayTotal(Student students[]){
+		
+		for(Student st: students) {
+		
+			System.out.println("Total marks for student "+st.getName()+" : "+total(st));
+			
+		}
 	}
 
 }
